@@ -24,7 +24,7 @@ class ProfileScreen extends StatelessWidget {
           ),
           const SizedBox(height: 24),
           const Text('B.M. Raihan Saleh', style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
-          const Text('rainhan_saleh@remedic.health', style: TextStyle(color: Colors.grey)),
+          const Text('rainhan_saleh@bhuiya.remedic', style: TextStyle(color: Colors.grey)),
           const SizedBox(height: 40),
           _item(Icons.person_outline, "Edit Profile"),
           _item(Icons.notifications_none, "Notifications"),

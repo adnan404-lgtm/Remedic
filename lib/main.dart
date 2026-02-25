@@ -24,7 +24,7 @@ class RemedicApp extends StatelessWidget {
         brightness: Brightness.dark,
         scaffoldBackgroundColor: const Color(0x00000000),
         primaryColor: const Color(0xFFF5F5F5),
-        fontFamily: 'NotoSans',
+        fontFamily: 'Poppins',
         useMaterial3: true,
       ),
       home: const MainNavigationHost(),

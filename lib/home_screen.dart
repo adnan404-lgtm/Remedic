@@ -24,7 +24,7 @@ class HomeScreen extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               const Text('Today\'s Schedule', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
-              Text('See all', style: TextStyle(color: Colors.grey[600], decoration: TextDecoration.underline)),
+              Text('See all', style: TextStyle(color: Colors.grey)),
             ],
           ),
           const SizedBox(height: 24),
@@ -61,7 +61,7 @@ class HomeScreen extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text('Next Dose In', style: TextStyle(color: Colors.grey[500], fontSize: 12)),
+          Text('Next Dose In', style: TextStyle(color: Colors.grey[500], fontFamily: 'Poppins', fontSize: 14)),
           const Text('45m 12s', style: TextStyle(fontSize: 36, fontWeight: FontWeight.bold)),
           const SizedBox(height: 16),
           const Row(

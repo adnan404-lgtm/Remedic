@@ -12,13 +12,13 @@ class LoginScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const SizedBox(height: 80),
+            const SizedBox(height: 100),
             const Text(
-              'Welcome\nBack.',
-              style: TextStyle(fontSize: 48, fontWeight: FontWeight.bold, height: 1.1),
+              'Let\'s Sign you in',
+              style: TextStyle(fontFamily: 'Poppins', fontSize: 45, fontWeight: FontWeight.bold),
             ),
-            const SizedBox(height: 16),
-            Text('Login to continue your regimen.', style: TextStyle(color: Colors.grey[500])),
+            const SizedBox(height: 20),
+            Text('Welcome back\nYou\'ve been missed!', style: TextStyle(color: Colors.grey[500], fontSize: 28, height: 1.7)),
             const SizedBox(height: 48),
             TextField(
               decoration: InputDecoration(
